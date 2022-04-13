@@ -69,7 +69,7 @@ public class Main {
                                 .forEach(stringStringEntry ->
                                         System.out.println(String.format("%s : %s",
                                                 stringStringEntry.getKey(), stringStringEntry.getValue()))));
-        System.out.println("Tosho adding code");
+        System.out.println("Tosho1 adding code");
 
     }
 }
