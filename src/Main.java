@@ -52,7 +52,7 @@ public class Main {
 
     private static void printResult(ArrayList<HashMap<String, String>> resultList) {
         /*
-    		Below is an example output when executed with inputString = "abcdefSEPgabcwetSEPsdsSEPdsfgSEPfro", separator = "SEP"
+    		Below is an example output when executed with inputString = "abcdef SEP gabcwet SEP sds SEP dsfg SEP fro", separator = "SEP"
 
     		Count: 4
     		Prefix: abcdef
@@ -69,5 +69,6 @@ public class Main {
                                 .forEach(stringStringEntry ->
                                         System.out.println(String.format("%s : %s",
                                                 stringStringEntry.getKey(), stringStringEntry.getValue()))));
+        System.out.println();
     }
 }
